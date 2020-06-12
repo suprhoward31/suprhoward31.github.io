@@ -34,11 +34,18 @@
         let createCollectable = collectable.create;
 
         ////////////////////////////////////////////////////////////////////////
-        // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-        
-        // example: 
-        createCollectable(type.steve, 200, 170, 6, 0.7);
-        
+        // ALL YOUR CODE GOES BELOW HERE /////////////////////////////////////// type: The type of the collectable. 
+        createCollectable(type.db, 200, 200, 7, 0.6);
+        createCollectable(type.max, 300, 300, 10, 0.4);
+        createCollectable(type.kennedi, 500, 400, 5, 0.2);
+        createCollectable(type.grace, 400, 100, 2, 0.5);
+/*
+type: The type of the collectable. 
+x: The x coordineate for the collectable.
+y: The y coordineate for the collectable.
+gravity: OPTIONAL The gravitational pull on the collectable.
+bounce: OPTIONAL A factor effecting how much the collectable will bounce off platforms, etc.
+*/
         
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
